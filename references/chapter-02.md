@@ -44,7 +44,7 @@ For your convenience this section contains a list of some of the functions that 
 
 | Name | Type signature | Description |
 | --- | ----------- | - |
-| `not` | `Bool -> Bool` | Takes a Boolean and returns the opposite |
+| `not` | `Bool -> Bool` | Takes a Boolean and returns the opposite. |
 | `(&&)` | `Bool -> Bool -> Bool` | Returns `True` if both arguments are `True` and returns `False` otherwise. |
 | `(\|\|)` | `Bool -> Bool -> Bool` | Returns `True` if one or both arguments are `True` and returns `False` otherwise. |
 
