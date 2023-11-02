@@ -53,7 +53,7 @@ The type signature will be `second_half :: [a] -> [a]`.
 Write a function named `second_half_product` that takes a list of `Int`s, called `xs`. The function should return the product of multiplying all elements in the second half of the list. Use the `second_half` function that you wrote in the previous problem to solve this problem.
 
 **Examples:** 
-- `second_half [1, 2, 3, 4, 5]` should return `60` because 3 * 4 * 5 equals 60.
+- `second_half_product [1, 2, 3, 4, 5]` should return `60` because 3 * 4 * 5 equals 60.
 
 ### Problem 4
 
