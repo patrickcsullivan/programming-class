@@ -27,7 +27,7 @@ biggest_end xs = max (head xs) (last xs)
 
 ### Problem 1
 
-Write a function named `my_last` that takes a list, `xs`. The function should return the last element in the `list`. You are not allowed to use the built-in `last` function. Instead, you must use the built-in `length` and `(!!)` methods.
+Write a function named `my_last` that takes a list, `xs`. The function should return the last element in the `list`. You are not allowed to use the built-in `last` function. Instead, you must use the built-in `length` and `(!!)` functions.
 
 **Examples:**
 - `last [1, 2, 3]` should return `3`.
