@@ -13,7 +13,7 @@ For your convenience this section contains a list of some of the functions that 
 | `tail` | `[a] -> [a]` | Takes a list and returns its "tail", everything except for the "head". |
 | `last` | `[a] -> a` | Takes a list and returns its last element. |
 | `init` | `[a] -> [a]` | Takes a list and returns everything except its last element. |
-| `length` | `[a] -> Int]` | Takes a list and returns its length. |
+| `length` | `[a] -> Int` | Takes a list and returns its length. |
 | `null` | `[a] -> Bool` | Checks if a list is empty. If it is, it returns `True`, otherwise it returns `False`. |
 | `reverse` | `[a] -> [a]` | Reverses a list. |
 | `take` | `Int -> [a] -> [a]` | Takes number and a list. It extracts that many elements from the beginning of the list. |

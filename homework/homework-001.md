@@ -13,10 +13,12 @@ Problem 0 is solved for you to demonstrate what a solution would look like.
 Write a function named `biggest_end` that takes a list of `Int`s, called `xs`. The function should return either the first or the last element in the list depending on which is larger.
 
 **Examples:**
+
 - `biggest_end [3, 2, 1]` should return `3`.
 - `biggest_end [4, 10, 6]` should return `6`.
 
 **Solution:**
+
 This code would go inside `main.hs`.
 ```
 biggest_end :: [Int] -> Int
