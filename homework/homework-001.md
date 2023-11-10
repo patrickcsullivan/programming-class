@@ -65,10 +65,10 @@ Write a function named `neither_empty` that takes two lists, `xs` and `ys`. The 
 
 ### Problem 5
 
-Write a function named `longer` that takes two lists, `xs` and `ys`. The function should return the longer of the two lists. 
+Write a function named `longer` that takes two lists, `xs` and `ys`. The function should return the length of the longest list. 
 
 **Examples:**
-- `longer [1, 2] [3, 4, 5]` should return `[3, 4, 5]`.
+- `longer [1, 2] [3, 4, 5]` should return `3`.
 
 ### Problem 6
 
