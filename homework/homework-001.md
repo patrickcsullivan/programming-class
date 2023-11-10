@@ -86,12 +86,12 @@ Write a function named `mean` that takes a list of `Float`s, called `xs`, and th
 
 ### Problem 8
 
-Write a function named `nand` that takes two Boolean arguments, `x` and `y`. The function should return `True` if neither `x` nor `y` is `True`, and it should return `False` otherwise.
+Write a function named `nand` that takes two Boolean arguments, `x` and `y`. The function should return `False` if `x` and `y` are both `True`, and it should return `True` otherwise.
 
 **Examples:**
 - `nand True True` should return `False`.
-- `nand True False` should return `False`.
-- `nand False True` should return `False`.
+- `nand True False` should return `True`.
+- `nand False True` should return `True`.
 - `nand False False` should return `True`.
 
 **Note:**
