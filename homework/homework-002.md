@@ -39,7 +39,7 @@ However, when we executed `middle_element []`, we called the function and passed
 
 ### Problem 4
 
-What happens if we call the function above, passing in an empty list like so `middle_element []`. Try it in ghci!
+What happens if we call the function above, passing in an empty list like so `middle_element []`. Try it in `ghci`!
 
 You should get a message that says `*Exception`. In Haskell an "exception" is an error that interrupts the execution of a program. It will cause your program to crash and stop running. Ideally, we want to write our programs so that once the program starts running, exceptions can never occur.
 
@@ -59,7 +59,7 @@ The answer is no, and this is great! For every possible list of integers that we
 
 Ideally, we want to implement our functions such that they are total functions instead of partial functions, because total functions will not raise exceptions and cause our programs to crash.
 
-Identify two functions from the [Chapter 2 references](../references/chapter-02.md) that are partial functions. Write down one value for each of the functions that causes the function to raise an exception.
+Identify two functions from the [Chapter 2 references](../references/chapter-02.md) that are partial functions. Write down one value for each of the functions that will cause the function to raise an exception when we pass that value to the function. (For example, `middle_element` is a partial function and it raises an exception when we pass in the value `[]`.)
 
 ### Problem 6
 
