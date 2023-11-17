@@ -6,21 +6,21 @@ Debería probar tu función en `ghci` con varias entradas para asegurarte de que
 
 ### Problema 0
 
-Escribe un función llamada `num_sign` que toma un `Int`, `x`. El función debería devolver la cadena de texto `"POSITIVE"` si `x` es positivo, `"NEGATIVE"` si `x` es negativo, y `"ZERO"` si `x` es cero.
+Escribe un función llamada `num_sign` que toma un `Int`, `x`. La función debería devolver la cadena de texto `"POSITIVE"` si `x` es positivo, `"NEGATIVE"` si `x` es negativo, y `"ZERO"` si `x` es cero.
 
 ### Problema 1
 
-Escribe un función llamada `num_parity` que toma un `Int`, `x`. El función debería devolver la cadena de texto `"ODD"` si `x` es un entero impar y `"EVEN"` si `x` es un entero par.
+Escribe un función llamada `num_parity` que toma un `Int`, `x`. La función debería devolver la cadena de texto `"ODD"` si `x` es un entero impar y `"EVEN"` si `x` es un entero par.
 
 ### Problema 2
 
-Escribe un función llamada `describe_list` que toma una lista, `xs`. El función debería devolver la cadena de texto `"EMPTY"` si lista está vacía, `"SINGLETON"` si la lista contiene un solo elemento, y `"LONGER"` si la lista contiene mas que uno elemento.
+Escribe un función llamada `describe_list` que toma una lista, `xs`. La función debería devolver la cadena de texto `"EMPTY"` si lista está vacía, `"SINGLETON"` si la lista contiene un solo elemento, y `"LONGER"` si la lista contiene mas que uno elemento.
 
 ### Problema 3
 
-Escribe un función llamada `middle_element` que toma una lista de enteros llamada `xs`. El función debería devolver el elemento intermedio de la lista.
+Escribe un función llamada `middle_element` que toma una lista de enteros llamada `xs`. La función debería devolver el elemento intermedio de la lista.
 
-Si la lista contiene 5 elementos, el función debería devolver el elemento en índice 2 (el tercer elemento). Si la lista contiene 4 elementos, el función debería devolver el elemento en índice 1 (el segundo elemento).
+Si la lista contiene 5 elementos, La función debería devolver el elemento en índice 2 (el tercer elemento). Si la lista contiene 4 elementos, La función debería devolver el elemento en índice 1 (el segundo elemento).
 
 **Ejemplos:**
 
