@@ -20,12 +20,12 @@ Escribe un función llamada `describe_list` que toma una lista, `xs`. La funció
 
 Escribe un función llamada `middle_element` que toma una lista de enteros llamada `xs`. La función debería devolver el elemento intermedio de la lista.
 
-Si la lista contiene 5 elementos, La función debería devolver el elemento en índice 2 (el tercer elemento). Si la lista contiene 4 elementos, La función debería devolver el elemento en índice 1 (el segundo elemento).
+Si la lista contiene 5 elementos, La función debería devolver el elemento en índice 2 (el tercer elemento). Si la lista contiene 4 elementos, La función debería devolver el elemento en índice 2 (el segundo elemento).
 
 **Ejemplos:**
 
 - `middle_element [1, 2, 3, 4, 5]` debería devolver `3`.
-- `middle_element [1, 2, 3, 4]` debería devolver `2`.
+- `middle_element [1, 2, 3, 4]` debería devolver `3`.
 
 ### Problema 4
 
