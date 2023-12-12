@@ -24,7 +24,7 @@ For your convenience this section contains a list of some of the functions that 
 | `product` | `Num a => [a] -> a` | Takes a list of numbers and returns their product. |
 | `elem` | `Eq a => a -> [a] -> Bool` | Takes a thing and a list of things and tells us if that thing is an element of the list. |
 | `cycle` | `[a] -> [a]` | Takes a list and cycles it into an infinite list. |
-| `repeat` | `[a] -> [a]` | Takes an element and produces an infinite list of just that element. |
+| `repeat` | `a -> [a]` | Takes an element and produces an infinite list of just that element. |
 | `replicate` | `Int -> a -> [a]` | Takes a number and an element and produces a list of just that element and with a length equal to the number. |
 
 ## Comparison functions
